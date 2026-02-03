@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <UseEffectComponent /> */}
-        {/* <UseLayoutEffectComponent /> */}
-        {/* <UseStateComponent /> */}
-        {/* <UseReducerComponent/> */}
-        {/* <UseRefComponent/> */}
+        <UseEffectComponent />
+        <UseLayoutEffectComponent />
+        <UseStateComponent />
+        <UseReducerComponent/>
+        <UseRefComponent/>
       </header>
     </div>
   );
