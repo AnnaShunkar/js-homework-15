@@ -16,7 +16,8 @@ const UseStateComponent = () => {
 
     return (
         <div>
-            <h2>{`Hello, ${name}`}</h2>
+            <h2>UseState Component</h2>
+            <h3>{`Hello, ${name}`}</h3>
             <button onClick={generateName}>Name</button>
         </div>
     );

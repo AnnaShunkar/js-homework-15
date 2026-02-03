@@ -35,7 +35,8 @@ const [state, dispatch] = useReducer(reducer, initialState);
   const [birthYearInput, setBirthYearInput] = useState("");
 
     return (
-        <div className='usereduce'>
+      <div className='usereduce'>
+        <h2>UseReducer Component</h2>
             <input type='text' value={nameInput} onChange={(e) => setNameInput(e.target.value)}></input>
             <button onClick={() => dispatch({ type: "SET_NAME", payload: nameInput })}>Name</button>
             <input type='text' value={lastNameInput} onChange={(e) => setLastNameInput(e.target.value)}></input>

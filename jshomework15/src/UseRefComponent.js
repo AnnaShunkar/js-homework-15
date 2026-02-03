@@ -19,6 +19,7 @@ const UseRefComponent = () => {
     }
     return (
         <div className='useref'>
+            <h2>UseRef Component</h2>
             <input ref={inputRef} type="text" placeholder='Input'></input>
             <button onClick={focusInput}>Focus</button>
             <button onClick={blurInput}>Blur</button>

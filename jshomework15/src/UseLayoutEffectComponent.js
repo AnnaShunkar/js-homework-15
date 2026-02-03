@@ -23,7 +23,9 @@ function UseLayoutEffectComponent() {
 
     return (
         <div>
+            <h2>UseLayoutEffect Component</h2>
             <button onClick={handleAddParagraph}>Add Paragraph</button>
+            <p>(look at the bottom of the page)</p>
         </div>
     );
 
